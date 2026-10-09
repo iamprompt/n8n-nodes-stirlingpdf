@@ -1,6 +1,6 @@
 {
 	"name": "@iamprompt/n8n-nodes-stirlingpdf",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "n8n community node for Stirling-PDF",
 	"publishConfig": {
 		"access": "public"
@@ -20,7 +20,6 @@
 		"type": "git",
 		"url": "git+https://github.com/iamprompt/n8n-nodes-stirlingpdf.git"
 	},
-	"main": "dist/nodes/StirlingPdf/StirlingPdf.node.js",
 	"scripts": {
 		"build": "n8n-node build",
 		"build:watch": "tsc --watch",
@@ -32,7 +31,8 @@
 		"prepublishOnly": "n8n-node prerelease"
 	},
 	"files": [
-		"dist"
+		"dist",
+		"icons"
 	],
 	"n8n": {
 		"n8nNodesApiVersion": 1,

@@ -27,8 +27,8 @@ export class StirlingPdf implements INodeType {
 		displayName: 'Stirling-PDF',
 		name: 'stirlingPdf',
 		icon: {
-			light: 'file:stirlingpdf.svg',
-			dark: 'file:stirlingpdf.dark.svg',
+			light: 'file:../../icons/stirlingpdf.svg',
+			dark: 'file:../../icons/stirlingpdf.dark.svg',
 		},
 		group: ['transform'],
 		version: 1,

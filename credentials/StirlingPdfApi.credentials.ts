@@ -14,8 +14,8 @@ export class StirlingPdfApi implements ICredentialType {
 	documentationUrl = 'https://github.com/Stirling-Tools/Stirling-PDF';
 
 	icon: INodeTypeDescription['icon'] = {
-		light: 'file:stirlingpdf.svg',
-		dark: 'file:stirlingpdf.dark.svg',
+		light: 'file:../icons/stirlingpdf.svg',
+		dark: 'file:../icons/stirlingpdf.dark.svg',
 	};
 
 	properties: INodeProperties[] = [
