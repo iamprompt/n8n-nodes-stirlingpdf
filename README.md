@@ -1,6 +1,6 @@
-# n8n-nodes-stirlingpdf
+# @iamprompt/n8n-nodes-stirlingpdf
 
-[![npm version](https://img.shields.io/npm/v/n8n-nodes-stirlingpdf.svg)](https://www.npmjs.com/package/n8n-nodes-stirlingpdf)
+[![npm version](https://img.shields.io/npm/v/@iamprompt/n8n-nodes-stirlingpdf.svg)](https://www.npmjs.com/package/@iamprompt/n8n-nodes-stirlingpdf)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 An [n8n](https://n8n.io) community node for [Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF), a powerful open-source web application for PDF manipulation.
@@ -56,7 +56,7 @@ This node exposes the core document processing operations of Stirling-PDF organi
 ### In n8n (Community Nodes)
 1. Go to **Settings > Community Nodes** in your n8n instance.
 2. Select **Install**.
-3. Enter `n8n-nodes-stirlingpdf` and confirm.
+3. Enter `@iamprompt/n8n-nodes-stirlingpdf` and confirm.
 
 ---
 

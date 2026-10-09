@@ -1,5 +1,5 @@
 {
-  "node": "n8n-nodes-stirlingpdf.stirlingPdf",
+  "node": "@iamprompt/n8n-nodes-stirlingpdf.stirlingPdf",
   "nodeVersion": "1.0",
   "codexVersion": "1.0",
   "categories": [

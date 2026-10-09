@@ -33,4 +33,9 @@ describe('StirlingPdf Node Structure', () => {
 		expect(credentials.properties.some((p) => p.name === 'apiKey')).toBe(true);
 		expect(credentials.properties.some((p) => p.name === 'ignoreSslIssues')).toBe(true);
 	});
+
+	it('should have matching scoped node codex in node.json', async () => {
+		const nodeJson = await import('../../nodes/StirlingPdf/StirlingPdf.node.json');
+		expect(nodeJson.node).toBe('@iamprompt/n8n-nodes-stirlingpdf.stirlingPdf');
+	});
 });
