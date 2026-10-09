@@ -1,0 +1,17 @@
+allowBuilds:
+  cpu-features: false
+  esbuild: true
+  eslint-plugin-n8n-nodes-base: true
+  isolated-vm: false
+  ssh2: false
+  unrs-resolver: true
+minimumReleaseAgeExclude:
+  - '@n8n/ai-node-sdk@0.32.4'
+  - '@n8n/ai-utilities@0.35.4'
+  - '@n8n/api-types@1.42.4'
+  - '@n8n/backend-common@1.42.4'
+  - '@n8n/backend-network@1.16.4'
+  - '@n8n/config@2.40.1'
+  - '@n8n/decorators@1.42.4'
+  - '@n8n/node-cli@0.51.4'
+  - n8n-workflow@2.42.3
